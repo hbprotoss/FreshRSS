@@ -646,7 +646,7 @@ class SimplePie
 	 * @see SimplePie::strip_attributes()
 	 * @access private
 	 */
-	public $strip_attributes = array('bgsound', 'class', 'expr', 'id', 'style', 'onclick', 'onerror', 'onfinish', 'onmouseover', 'onmouseout', 'onfocus', 'onblur', 'lowsrc', 'dynsrc');
+	public $strip_attributes = array('bgsound', 'expr', 'onclick', 'onerror', 'onfinish', 'onmouseover', 'onmouseout', 'onfocus', 'onblur', 'lowsrc', 'dynsrc');
 
 	/**
 	 * @var array Stores the default attributes to add to different tags by add_attributes().
